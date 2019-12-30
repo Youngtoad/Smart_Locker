@@ -1,0 +1,1 @@
+cmd_/home/pi/Workspace/magnetic/magnetic_dev.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Workspace/magnetic/magnetic_dev.ko /home/pi/Workspace/magnetic/magnetic_dev.o /home/pi/Workspace/magnetic/magnetic_dev.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/pi/Workspace/keypad/keypad_dev.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Workspace/keypad/keypad_dev.ko /home/pi/Workspace/keypad/keypad_dev.o /home/pi/Workspace/keypad/keypad_dev.mod.o ;  true
